@@ -32,7 +32,7 @@ spec:
                key:  mongoroot-password
 ---
 apiVersion: apps/v1
-kind: Deployment
+kind: Service
 metadata:
   name: mongodb-service
 spec:
